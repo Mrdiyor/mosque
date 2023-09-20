@@ -1,0 +1,24 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 5px 40px;
+  .logo{
+    height: 100%;
+    img{
+      height: 100%;
+    }
+  }
+  .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    li{
+      a{
+        color: goldenrod;
+      }
+    }
+  }
+}
