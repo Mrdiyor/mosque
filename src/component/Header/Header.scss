@@ -1,0 +1,26 @@
+.home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  padding: 5px 40px;
+  .content{
+    width: 40%;
+    h1,h2{
+      width: 100%;
+      span{
+        color: goldenrod;
+      }
+    }
+    p{
+      color: rgba(0,0,0,0.5);
+    }
+  }
+  .img-wrapper{
+    width: 60%;
+    img{
+      width: 100%;
+    }
+  }
+}

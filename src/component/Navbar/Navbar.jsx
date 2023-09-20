@@ -13,6 +13,7 @@ const Navbar = () => {
           <li><a href="/">Beautiful Mosques</a></li>
           <li><a href="/">Locations</a></li>
           <li><a href="/">Imams</a></li>
+          <li><a href="/">Time Prayers</a></li>
         </div>
       </div>
     </div>
