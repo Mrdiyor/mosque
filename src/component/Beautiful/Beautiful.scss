@@ -1,0 +1,20 @@
+.mosques{
+  padding: 5px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  .card{
+    width: 290px;
+    height: 400px;
+    .content{
+      margin-top: 5px;
+    }
+    .img{
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
