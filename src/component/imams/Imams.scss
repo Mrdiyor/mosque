@@ -1,0 +1,39 @@
+.imams{
+  padding: 5px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+  .imam{
+    width: 290px;
+    height: 400px;
+    .content{
+      margin-top: 5px;
+    }
+    .img{
+      width: 100%;
+      height: 70%;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  .yusuf{
+    width: 290px;
+    height: 400px;
+    .content{
+      margin-top: 5px;
+      margin-left: 15px;
+    }
+    .img{
+      width: 90%;
+      height: 70%;
+      margin-left: 15px;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}
