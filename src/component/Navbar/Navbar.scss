@@ -21,4 +21,21 @@
       }
     }
   }
+  .menu-icon{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .navbar{
+    .menu{
+      li{
+      display: none;
+
+      }
+    }
+    .menu-icon{
+      display: block;
+    }
+  }
 }
